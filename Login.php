@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Sprawdzenie, czy przesłane dane są poprawne
     if ($username === $correct_username && $password === $correct_password) {
         // Jeśli dane są poprawne, przekieruj do strony powitalnej lub wykonaj inne działania
-        header("Location: welcome.php");
+        header("Location: index.html");
         exit;
     } else {
         // Jeśli dane są niepoprawne, wyświetl komunikat błędu

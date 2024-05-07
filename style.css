@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(135deg, #0072ff, #00c6ff);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+form {
+    text-align: center; /* Wyrównanie tekstu w formularzu do środka */
+}
+
+h2 {
+    margin-bottom: 20px; /* Dodatkowy odstęp dla tytułu */
+}
+
+label {
+    display: block;
+    text-align: left; /* Wyrównanie tekstu etykiet do lewej */
+    margin-left: 10px; /* Przesunięcie etykiet w lewo */
+}
+
+.input-field {
+    display: block;
+    width: calc(100% - 20px); /* Ustawienie szerokości pola wejściowego z uwzględnieniem przesunięcia etykiety */
+    margin-bottom: 10px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0072ff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
